@@ -7,7 +7,7 @@ from models import Student
 from schemas import StudentCreate,StudentResponse, StudentUpdate
 
 app=FastAPI()
-
+ 
 Base.metadata.create_all(bind=engine)
 
 def get_db():
